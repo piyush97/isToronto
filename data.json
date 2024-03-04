@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "descr": "Princeton - Graduate College",
+        "latitude": 40.340836,
+        "longitude": -74.66462,
+        "vehicleDetails": [
+            {
+                "id": 1,
+                "descr": "Mazda 6",
+                "thumbUrl": "https://url-to-your-image.jpg"
+            }
+        ]
+    }
+]
