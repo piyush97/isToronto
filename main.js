@@ -54,7 +54,11 @@ async function filterLocations() {
       })
       .map((item) =>
         // Return a new object with only the latitude and longitude
-        ({ latitude: item.latitude, longitude: item.longitude })
+        ({
+          name: item.descr,
+          latitude: item.latitude,
+          longitude: item.longitude,
+        })
       );
 
     // Stringify the filtered data
